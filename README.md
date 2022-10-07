@@ -47,3 +47,6 @@ The following goals should be started only when above tasks was finished. These 
 Follow these steps for completing your project.
 
 - [ ] Submit a pull request to merge <YourfirstName-YourlastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+
+
+## my design
