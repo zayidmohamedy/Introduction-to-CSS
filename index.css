@@ -10,7 +10,7 @@
 /* nav css */
 
 nav {
-    background-color: rgba(4, 15, 73, 0.701);
+    background-color: #454f6f;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,7 +48,7 @@ nav ul li a {
 /* header css */
 
 header {
-    background-color: rgba(230, 129, 29, 0.992);
+    background-color: #e6834c;
     height: 500px;
     color: white;
     display: flex;
@@ -61,7 +61,7 @@ header {
 
 header h1 {
     font-weight: bolder;
-    font-size: 90px;
+    font-size: 80px;
     font-family: 'Franklin Gothic Medium';
 }
 
@@ -220,7 +220,7 @@ header h2 {
 }
 
 .content .side2 .contact a {
-    color: orangered;
+    color: #e6834c;
     text-decoration: none;
     text-align: center;
     padding-top: 100px;
@@ -238,7 +238,7 @@ header h2 {
 
 .order button {
     color: white;
-    background-color: coral;
+    background-color:  #e6834c;
     border-radius: 50px;
     padding: 20px 50px;
     border: white;
@@ -247,14 +247,14 @@ header h2 {
 }
 
 .order button:hover {
-    background-color: rgba(4, 15, 73, 0.701);
+    background-color: #454f6f;
 }
 
 
 /* footer css */
 
 footer {
-    border: 1px solid #000;
+
     display: flex;
     flex-direction: column;
     color: white;
@@ -263,7 +263,7 @@ footer {
 }
 
 footer .top-footer {
-    background-color: rgba(4, 15, 73, 0.701);
+    background-color: #454f6f;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -298,7 +298,7 @@ footer .top-footer ul li a {
 }
 
 footer h2 {
-    background-color: rgba(230, 129, 29, 0.992);
+    background-color:  #e6834c;
     color: black;
     height: 80px;
     display: flex;
