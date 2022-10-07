@@ -1,1 +1,281 @@
 /* Your CSS goes here */
+
+ 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* nav css */
+
+nav {
+    background-color:rgba(4, 15, 73, 0.701);
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   height: 120px;
+   font-family:'Franklin Gothic small' ;
+}
+nav h1{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 100px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 600px;
+
+}
+nav ul li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+nav ul li a{
+    font-size: xx-large;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* header css */
+
+header{
+    background-color: rgba(230, 129, 29, 0.992);
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ 
+    
+}
+header h1{
+    font-weight: bolder;
+    font-size: 90px;
+    font-family:'Franklin Gothic Medium' ;
+}
+header h2{
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family:'Franklin Gothic small' ;
+}
+
+
+
+
+
+/* content css */
+
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.content .about{
+     background-color :aliceblue;
+     height: 400px;
+     padding: 50px 100px;
+     border-radius: 10px;
+     
+}
+.content .about h3{
+    font-size: 40px;
+    text-align: center;
+ 
+}
+.content .about p{
+    font-size: 30px;
+    padding-top: 40px; 
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.content .side1{
+ 
+     display: flex;
+     flex-direction: row;
+     height: 500px;
+ 
+}
+
+.content .side1 .pasta-banana{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.content .side1 .pasta-banana h3{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content .side1 .pasta-banana img{
+    border-radius: 20px;
+}
+.content .side1 .pasta-banana p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .side1 .rice-banana{
+    display: flex;
+    flex-direction: column; 
+    padding: 30px;
+
+}
+.content .side1 .rice-banana p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+     overflow-wrap: break-word;
+     
+}
+.content .side1 .rice-banana h3{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content .side1 .rice-banana img{
+    border-radius: 20px;
+    height: 200px;
+}
+
+
+
+.content .side2{
+    
+     display: flex;
+     flex-direction: row;
+     height: 500px;
+ 
+}
+
+.content .side2 .catering{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+}
+.content .side2 .catering h3{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content .side2 .catering p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .side2 .catering img{
+    border-radius: 20px;
+    height: 200px;
+}
+
+.content .side2 .contact{
+    display: flex;
+    flex-direction: column; 
+    padding: 30px;
+    width: 50%;
+}
+.content .side2 .contact p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+     overflow-wrap: break-word;
+     text-align: center;
+     
+}
+.content .side2 .contact h3{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+.content .side2 .contact a{
+     color: orangered;
+     text-decoration:  none;
+    text-align: center;
+    padding-top: 100px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+/* button order css , buttonka wa dheeraad*/
+  .order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .order button{
+    color: white;
+    background-color: coral;
+     border-radius: 50px;
+     padding: 20px 50px;
+    border: white;
+    font-size: large;
+    font-weight: bold;
+  }
+  .order button:hover{
+    background-color: rgba(4, 15, 73, 0.701);
+  }
+
+
+/* footer css */
+
+footer{
+ border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 200px;
+    font-family:'Franklin Gothic small' ;
+}
+footer .top-footer {
+    background-color:rgba(4, 15, 73, 0.701);
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   height: 120px;
+
+}
+footer .top-footer h1{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 100px;
+}
+footer .top-footer ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 600px;
+
+}
+footer .top-footer ul li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+footer .top-footer ul li a{
+    font-size: xx-large;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+}
+footer h2{
+    background-color: rgba(230, 129, 29, 0.992);
+    color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family:'Franklin Gothic lighter' ;
+}
