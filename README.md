@@ -53,7 +53,7 @@ Follow these steps for completing your project.
   
 ## my design
   
-  Author : mohamed abdullahi hassan
+  Author : mohamed abdullahi hassan (zayidmohamedy)
   
  ![image](https://user-images.githubusercontent.com/65617964/194604781-65e84612-4830-4921-a0f4-7c0121aea741.png)
 
